@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@include file="header.jsp" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,32 +13,16 @@
         <title>Registrar usuario</title>
     </head>
     <body>
-    <tr>
-        <td class="text-right">Nombre completo:</td>
-    </tr>
-    <tr>
-        <td class="text-right">Rut:</td>
-    </tr>
-    <tr>
-        <td class="text-right">Edad<:/td>
-    </tr>
-    <tr>
-        <td class="text-right">Nacionalidad:</td>
-    </tr>
-    <tr>
-        <td class="text-right">Direcci&oacute;n:</td>
-    </tr>
-    <tr>
-        <td class="text-right">N&uacute;mero de tarjeta</td>
-    </tr>
-    <tr>
-        <td class="text-right">Propierario de la tarjera:</td>
-    </tr>
-    <tr>
-        <td class="text-right">Correo:</td>
-    </tr>
-    <tr>
-        <td class="text-right">Contrase&Ntilde;a:</td>
-    </tr>
+        <form action="crearUsuario.do" method="POST">
+            Nombre completo: </br>
+            Rut:</br>
+            Edad:</br>
+            Nacionalidad:</br>
+            Direcci&oacute;n:</br>
+            N&uacute;mero de tarjeta:</br>
+            Propierario de la tarjera:</br>
+            Correo:</br>
+            Contrase&Ntilde;a:</br>
+        </form>
     </body>
 </html>
