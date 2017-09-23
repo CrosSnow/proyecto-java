@@ -25,8 +25,10 @@
         <![endif]-->
     </head>
     <body>
-        <div class="container">
-            
+        <!--TextBox para el usuario y contraseña, de momento solo el usuario-->
+        <!--No es necesario que funcione, solo que "redireccione" basta-->
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Usuraio">
         </div>
     </body>
 </html>
