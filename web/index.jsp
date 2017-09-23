@@ -25,10 +25,8 @@
         <![endif]-->
     </head>
     <body>
-        <form action="login.do" name="login" method="POST">
-            <input type="text" name="usuario" value="" size="15" />
-            <input type="password" name="pass" value="" size="12" />
-            <input type="submit" value="Login" name="login" />
-        </form>
+        <div class="container">
+            
+        </div>
     </body>
 </html>
