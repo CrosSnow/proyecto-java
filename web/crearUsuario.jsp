@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Registro</title>
+        <title>Cree una cuenta</title>
     </head>
     <body>
     <tr>
