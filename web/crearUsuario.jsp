@@ -22,7 +22,7 @@
             N&uacute;mero de tarjeta:</br>
             Propierario de la tarjera:</br>
             Correo:</br>
-            Contrase&Ntilde;a:</br>
+            Contrase&ntilde;a:</br>
         </form>
     </body>
 </html>
