@@ -22,7 +22,7 @@
             <input type="text" id="codigo" value=""><br>
             <label>Nombre del producto: </label>
             <input type="text" id="stock" value=""><br>
-            <button type="Submit">Ingresar</button>
+            <button type="Submit">Añadir al carro</button>
             
             <br>
             <img src="http://popo.webcindario.com/El-mercado-peruano-de-alimentos-para.jpg" alt="Imagen" style="width:width;height:height;"> 
