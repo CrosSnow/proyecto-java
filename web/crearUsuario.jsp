@@ -20,7 +20,7 @@
                     <div class="form-group">
                         <label for="nc">Nombre completo:</label>
                         <input type="text" class="form-control" id="nc">
-                    </div></br>              
+                    </div>             
                     <div class="form-group">
                         <label for="rt">Rut:</label>
                         <input type="text" class="form-control" id="rt">
