@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page session="true"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,14 +18,15 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><strong>Mascotas<span style="color: red">.COM</span></strong></a>
+                    <a class="navbar-brand" href="#"><strong>Mascoticomida<span style="color: red">.COM</span></strong></a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li><a>Carrito</a></li>
+                    <li class="alert-warning"><a href="#">Carrito</a></li>
+                    <li class="alert-warning"><a href="compra.jsp">Tienda</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li> <form name="usuario" action="crearUsuario.jsp" method="POST"><button class="btn btn-info navbar-btn" type="submit">Crear Usuario</button></form> </li>
-                    <li><a href="#">Login</a></li>
+                    <li> <form name="usuario" action="crearUsuario.jsp" method="POST"><button class="btn btn-info navbar-btn" type="submit">Crear Usuario</button></form></li>
+                    <li><a href="#" class="alert-dark">Login</a></li>
                 </ul>
             </div>
         </nav>
