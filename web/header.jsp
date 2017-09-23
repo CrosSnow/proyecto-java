@@ -11,19 +11,22 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>header</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="compra.jsp"><strong>Mascoticomidas<span style="color: red">.COM</span></strong></a>
+                    <a class="navbar-brand" href="#"><strong>Mascoticomidas<span style="color: red">.COM</span></strong></a>
                 </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a><span>Crear Usuario</span></a></li>
-                    <li><a><span>Login</span></a></li>
-                </ul>
             </div>
+            <ul class="nav navbar-nav">
+                <li><a></a></li>
+                <li><a></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a><span>Crear Usuario</span></a></li>
+                <li><a><span>Login</span></a></li>
+             </ul>
         </nav>
     </body>
 </html>
