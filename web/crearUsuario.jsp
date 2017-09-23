@@ -9,9 +9,35 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Registro</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+    <tr>
+        <td class="text-right">Nombre completo:</td>
+    </tr>
+    <tr>
+        <td class="text-right">Rut:</td>
+    </tr>
+    <tr>
+        <td class="text-right">Edad<:/td>
+    </tr>
+    <tr>
+        <td class="text-right">Nacionalidad:</td>
+    </tr>
+    <tr>
+        <td class="text-right">Direcci&oacute;n:</td>
+    </tr>
+    <tr>
+        <td class="text-right">N&uacute;mero de tarjeta</td>
+    </tr>
+    <tr>
+        <td class="text-right">Propierario de la tarjera:</td>
+    </tr>
+    <tr>
+        <td class="text-right">Correo:</td>
+    </tr>
+    <tr>
+        <td class="text-right">Contrase&Ntilde;a:</td>
+    </tr>
     </body>
 </html>
