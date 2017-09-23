@@ -53,6 +53,7 @@
                         <label for="cs">Contrase&ntilde;a:</label>
                         <input type="text" class="form-control" id="cs">
                     </div>  
+                    <button type="button" class="btn btn-primary">Resgistrarse</button>
                 </form>
             </div>
         </div>            
