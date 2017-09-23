@@ -11,9 +11,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registrar cuenta usuario</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <form action="crearUsuario.do" method="POST">
+        <div class="container">
+            <form action="crearUsuario.do" method="POST">
             <table border="0" width="2" cellspacing="2">
                 <tbody>
                     <tr>
@@ -55,5 +57,6 @@
                 </tbody>
             </table>   
         </form>
+        </div>
     </body>
 </html>
