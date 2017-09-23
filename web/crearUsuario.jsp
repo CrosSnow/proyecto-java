@@ -10,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Registrar usuario</title>
+        <title>Registrar cuenta usuario</title>
     </head>
     <body>
         <form action="crearUsuario.do" method="POST">
