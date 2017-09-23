@@ -8,10 +8,25 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <%@include file="header.jsp" %>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
-        <h1>Hello World!</h1>
+    <body> 
+        <form>
+            <label>Nombre del producto: </label>
+            <input type="text" id="nombre" value=""><br>
+            <label>Precio del producto: </label>
+            <input type="text" id="precio" value=""><br>
+            <label>Codigo del producto: </label>
+            <input type="text" id="codigo" value=""><br>
+            <label>Nombre del producto: </label>
+            <input type="text" id="stock" value=""><br>
+            <button type="Submit">Ingresar</button>
+            
+            <br>
+            <img src="http://popo.webcindario.com/El-mercado-peruano-de-alimentos-para.jpg" alt="Imagen" style="width:width;height:height;"> 
+        
+        </form>
     </body>
 </html>
