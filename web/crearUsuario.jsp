@@ -15,48 +15,44 @@
     </head>
     <body>
         <div class="container">
-            <form action="crearUsuario.do" method="POST">
-            <table border="0" width="2" cellspacing="2">
-                <tbody>
-                    <tr>
-                        <td>Nombre completo:</td>
-                        <td><input type="text" name="txtNombre" value="" size="15"/></br></td>
-                    </tr>
-                    <tr>
-                        <td>Rut:</td>
-                        <td><input type="text" name="txtRut" value="" size="10" /></br></td>
-                    </tr>
-                    <tr>
-                        <td>Edad:</td>
-                        <td><input type="text" name="txtEdad" value="" size="4" /></br></td>
-                    </tr>
-                    <tr>
-                        <td>Nacionalidad:</td>
-                        <td><input type="text" name="txtNacionalidad" value="" size="10" /></br></td>
-                    </tr>
-                    <tr>
-                        <td>Direcci&oacute;n:</td>
-                        <td><input type="text" name="txtDireccion" value="" size="30" /></br></td>
-                    </tr>
-                    <tr>
-                        <td>N&uacute;mero de tarjeta:</td>
-                        <td><input type="text" name="txtNumTarjeta" value="" size="20" /></br></td>
-                    </tr>
-                    <tr>
-                        <td>Propierario de la tarjera:</td>
-                        <td><input type="text" name="txtPropTarjeta" value="" size="15" /></br></td>
-                    </tr>
-                    <tr>
-                        <td>Correo:</td>
-                        <td><input type="text" name="txtCorreo" value="" size="20" /></br></td>
-                    </tr>
-                    <tr>
-                        <td>Contrase&ntilde;a:</td>
-                        <td><input type="password" name="txtContrasena" value="" size="10" /></br></td>
-                    </tr> 
-                </tbody>
-            </table>   
-        </form>
+            <form action="crearUsuario.do" method="POST">                
+                <div class="form-group">
+                    <label for="nc">Nombre completo:</label>
+                    <input type="text" class="form-control" id="nc">
+                </div>                
+                <div class="form-group">
+                    <label for="rt">Rut:</label>
+                    <input type="text" class="form-control" id="rt">
+                </div>
+                <div class="form-group">
+                    <label for="ed">Edad:</label>
+                    <input type="text" class="form-control" id="ed">
+                </div>
+                <div class="form-group">
+                    <label for="nl">Nacionalidad:</label>
+                    <input type="text" class="form-control" id="nl">
+                </div>
+                <div class="form-group">
+                    <label for="dc">Direcci&oacute;n:</label>
+                    <input type="text" class="form-control" id="dc">
+                </div>
+                <div class="form-group">
+                    <label for="nt">N&uacute;mero de tarjeta:</label>
+                    <input type="text" class="form-control" id="nt">
+                </div>
+                <div class="form-group">
+                    <label for="pt">Propierario de la tarjera:</label>
+                    <input type="text" class="form-control" id="pt">
+                </div>
+                <div class="form-group">
+                    <label for="cr">Correo:</label>
+                    <input type="text" class="form-control" id="cr">
+                </div>
+                <div class="form-group">
+                    <label for="cs">Contrase&ntilde;a:</label>
+                    <input type="text" class="form-control" id="cs">
+                </div>  
+            </form>
         </div>
     </body>
 </html>
