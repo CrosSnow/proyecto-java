@@ -9,9 +9,21 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>header</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="compra.jsp"><strong>Mascoticomidas<span style="color: red">.COM</span></strong></a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a><span>Crear Usuario</span></a></li>
+                    <li><a><span>Login</span></a></li>
+                </ul>
+            </div>
+        </nav>
     </body>
 </html>
