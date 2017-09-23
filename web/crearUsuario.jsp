@@ -23,6 +23,33 @@
             Propierario de la tarjera: <input type="text" name="txtPropTarjeta" value="" size="15" /> </br>
             Correo: <input type="text" name="txtCorreo" value="" size="20" /> </br>
             Contrase&ntilde;a: <input type="password" name="txtContrasena" value="" size="10" /> </br>
+            
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
         </form>
     </body>
 </html>
