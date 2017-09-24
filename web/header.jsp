@@ -15,6 +15,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
+        <% String usuario = request.getParameter("user"); %>
         <nav class="navbar navbar-default" style="background-color: #fefefe">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -22,13 +23,22 @@
                 </div>
                 <ul class="nav navbar-nav">
                     
-                    <li class="alert-warning"><a href="compra.jsp">Tienda</a></li>
-                    <li class="alert-warning"><a href="carrito.jsp"><span><img src="img/cart.png" width="18" height="18"/></span> Carrito</a></li>
+                    <li class="alert-warning"><a href="compra.jsp?user=Usuario">Tienda</a></li>
+                    <li class="alert-warning"><a href="carrito.jsp?user=Usuario"><span><img src="img/cart.png" width="18" height="18"/></span> Carrito</a></li>
                     
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <%if(usuario==null){%>
+                    <li> </li>
+                    <%}else{%>
+                    <li><a>Bienvenido: Usuario</a></li>
+                    <%}%>
+                    <%if(usuario==null){%>
                     <li> <form name="usuario" action="crearUsuario.jsp" method="POST"><button class="btn btn-info navbar-btn" type="submit">Crear Usuario</button></form></li>
-                    <li><a href="login.jsp" class="alert-dark">Login</a></li>
+                    <li><a href="login.jsp" class="alert-dark">Iniciar Sesion</a></li>
+                    <%}else{%>
+                    <li> <form name="usuario" action="login.jsp" method="POST"><button class="btn btn-info navbar-btn" type="submit">Cerrar Sesion</button></form></li>
+                    <%}%>
                 </ul>
             </div>
         </nav>

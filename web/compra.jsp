@@ -22,9 +22,9 @@
                     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Seleccione
                     <span class="caret"></span></button>
                     <ul class="dropdown-menu">
-                        <li><a href="compra.jsp?opcion=todo">Todo</a></li>
-                        <li><a href="compra.jsp?opcion=gato">Comida Gato</a></li>
-                        <li><a href="compra.jsp?opcion=perro">Comida Perro</a></li>
+                        <li><a href="compra.jsp?opcion=todo&AMP;user=Usuario">Todo</a></li>
+                        <li><a href="compra.jsp?opcion=gato&AMP;user=Usuario">Comida Gato</a></li>
+                        <li><a href="compra.jsp?opcion=perro&AMP;user=Usuario">Comida Perro</a></li>
                     </ul>
                 </div>
             </form>
@@ -46,7 +46,7 @@
                             <td>Cat Show Gatitos<br>Peso: 8kg.<br>Serie: CS010</td>
                             <td>$17.000</td>
                             <td>30</td>
-                            <td><a href="carrito.jsp" class="bg_login">Agregar al carro</a></td>
+                            <td><form action="carrito.jsp?user=Usuario" method="POST"><button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button></form></td>
                         </tr>
                         <%}else if(opcion.equals("perro")){%>
                         <tr>
@@ -54,7 +54,7 @@
                             <td>Royal Canin medium junior<br>Peso: 15kg.<br>Serie: RC020</td>
                             <td>$40.000</td>
                             <td>45</td>
-                            <td><a href="carrito.jsp" class="bg_login">Agregar al carro</a></td>
+                            <td><form action="carrito.jsp?user=Usuario" method="POST"><button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button></form></td>
                         </tr>
                         <%}else if(opcion.equals("todo")){%>
                         <tr>
@@ -62,14 +62,14 @@
                             <td>Cat Show Gatitos<br>Peso: 8kg.<br>Serie: CS010</td>
                             <td>$17.000</td>
                             <td>30</td>
-                            <td><a href="carrito.jsp" class="bg_login">Agregar al carro</a></td>
+                            <td><form action="carrito.jsp?user=Usuario" method="POST"><button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button></form></td>
                         </tr>
                         <tr>
                             <td><img src="img/medium-junior.png" alt="medium-junior" width="90" height="150"/></td>
                             <td>Royal Canin medium junior<br>Peso: 15kg.<br>Serie: RC020</td>
                             <td>$40.000</td>
                             <td>45</td>
-                            <td><a href="carrito.jsp" class="bg_login">Agregar al carro</a></td>
+                            <td><form action="carrito.jsp?user=Usuario" method="POST"><button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button></form></td>
                         </tr>
                         <%}
                         }%>
