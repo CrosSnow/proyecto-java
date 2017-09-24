@@ -28,7 +28,7 @@
                     </ul>
                 </div>
             </form>
-            <div class="panel col-xs-10">
+            <div class="panel col-xs-11">
                 <table class="table table-hover table-bordered">
                     <thead>
                         <tr>
@@ -43,33 +43,65 @@
                             if(opcion.equals("gato")) {%>
                         <tr>
                             <td><img src="img/gatitos.png" alt="gatitos" width="90" height="150"/></td>
-                            <td>Cat Show Gatitos<br>Peso: 8kg.<br>Serie: CS010</td>
+                            <td>Cat Show Gatitos<br>Peso: 8kg.<br>Serie: CS010<hr>
+                                La mejor alternativa para gatos peque&ntilde;os.
+                            </td>
                             <td>$17.000</td>
                             <td>30</td>
-                            <td><form action="carrito.jsp?user=Usuario" method="POST"><button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button></form></td>
+                            <td><form action="carrito.jsp?user=Usuario" method="POST">
+                                    <button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button><br>
+                                    <div class="form-group col-xs-5">
+                                        <input class="form-control" type="text" name="cantidad" maxlength="2" placeholder="Cantidad" required>
+                                    </div>
+                                </form>
+                            </td>
                         </tr>
                         <%}else if(opcion.equals("perro")){%>
                         <tr>
                             <td><img src="img/medium-junior.png" alt="medium-junior" width="90" height="150"/></td>
-                            <td>Royal Canin medium junior<br>Peso: 15kg.<br>Serie: RC020</td>
+                            <td>Royal Canin medium junior<br>Peso: 15kg.<br>Serie: RC020<hr>
+                                Comida premiun para cachorros.
+                            </td>
                             <td>$40.000</td>
                             <td>45</td>
-                            <td><form action="carrito.jsp?user=Usuario" method="POST"><button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button></form></td>
+                            <td><form action="carrito.jsp?user=Usuario" method="POST">
+                                    <button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button><br>
+                                    <div class="form-group col-xs-5">
+                                        <input class="form-control" type="text" name="cantidad" maxlength="2" placeholder="Cantidad" required>
+                                    </div>
+                                </form>
+                            </td>
                         </tr>
                         <%}else if(opcion.equals("todo")){%>
                         <tr>
                             <td><img src="img/gatitos.png" alt="gatitos" width="90" height="150"/></td>
-                            <td>Cat Show Gatitos<br>Peso: 8kg.<br>Serie: CS010</td>
+                            <td>Cat Show Gatitos<br>Peso: 8kg.<br>Serie: CS010<hr>
+                                La mejor alternativa para gatos peque&ntilde;os.
+                            </td>
                             <td>$17.000</td>
                             <td>30</td>
-                            <td><form action="carrito.jsp?user=Usuario" method="POST"><button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button></form></td>
+                            <td><form action="carrito.jsp?user=Usuario" method="POST">
+                                    <button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button><br>
+                                    <div class="form-group col-xs-5">
+                                        <input class="form-control" type="text" name="cantidad" maxlength="2" placeholder="Cantidad" required>
+                                    </div>
+                                </form>
+                            </td>
                         </tr>
                         <tr>
                             <td><img src="img/medium-junior.png" alt="medium-junior" width="90" height="150"/></td>
-                            <td>Royal Canin medium junior<br>Peso: 15kg.<br>Serie: RC020</td>
+                            <td>Royal Canin medium junior<br>Peso: 15kg.<br>Serie: RC020<hr>
+                                Comida premiun para cachorros.
+                            </td>
                             <td>$40.000</td>
                             <td>45</td>
-                            <td><form action="carrito.jsp?user=Usuario" method="POST"><button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button></form></td>
+                            <td><form action="carrito.jsp?user=Usuario" method="POST">
+                                    <button class="btn btn-danger btn-block" type="submit">Agregar al Carro</button><br>
+                                    <div class="form-group col-xs-5">
+                                        <input class="form-control" type="text" name="cantidad" maxlength="2" placeholder="Cantidad" required>
+                                    </div>
+                                </form>
+                            </td>
                         </tr>
                         <%}
                         }%>
