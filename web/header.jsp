@@ -18,7 +18,7 @@
         <nav class="navbar navbar-default" style="background-color: #fefefe">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><strong>Mascoticomida<span style="color: red">.COM</span></strong></a>
+                    <a class="navbar-brand" href="#"><strong>Mascoticomida<span style="color: red">.CL</span></strong></a>
                 </div>
                 <ul class="nav navbar-nav">
                     
