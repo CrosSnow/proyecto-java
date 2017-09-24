@@ -32,7 +32,7 @@
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Nombre</th>
+                            <th>Producto</th>
                             <th>Valor</th>
                         </tr>
                     </thead>
