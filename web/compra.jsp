@@ -8,7 +8,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <%@include file="header.jsp" %>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Tienda - compra</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
