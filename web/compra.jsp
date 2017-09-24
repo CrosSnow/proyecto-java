@@ -22,19 +22,20 @@
                     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Seleccione
                     <span class="caret"></span></button>
                     <ul class="dropdown-menu">
-                        <li><a href="paginaDePrueba.jsp?opcion=todo">Todo</a></li>
-                        <li><a href="paginaDePrueba.jsp?opcion=gato">Comida Gato</a></li>
-                        <li><a href="paginaDePrueba.jsp?opcion=perro">Comida Perro</a></li>
+                        <li><a href="compra.jsp?opcion=todo">Todo</a></li>
+                        <li><a href="compra.jsp?opcion=gato">Comida Gato</a></li>
+                        <li><a href="compra.jsp?opcion=perro">Comida Perro</a></li>
                     </ul>
                 </div>
             </form>
-            <div class="panel col-xs-6">
-                <table class="table">
+            <div class="panel col-xs-10">
+                <table class="table table-hover table-bordered">
                     <thead>
                         <tr>
                             <th></th>
                             <th>Producto</th>
                             <th>Valor</th>
+                            <th>Stock</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -42,28 +43,32 @@
                             if(opcion.equals("gato")) {%>
                         <tr>
                             <td><img src="img/gatitos.png" alt="gatitos" width="90" height="150"/></td>
-                            <td>Cat Show Gatitos</td>
-                            <td>$17000</td>
+                            <td>Cat Show Gatitos<br>Peso: 8kg.<br>Serie: CS010</td>
+                            <td>$17.000</td>
+                            <td>30</td>
                             <td><a href="carrito.jsp" class="bg_login">Agregar al carro</a></td>
                         </tr>
                         <%}else if(opcion.equals("perro")){%>
                         <tr>
                             <td><img src="img/medium-junior.png" alt="medium-junior" width="90" height="150"/></td>
-                            <td>Royal Canin medium junior</td>
+                            <td>Royal Canin medium junior<br>Peso: 15kg.<br>Serie: RC020</td>
                             <td>$40.000</td>
+                            <td>45</td>
                             <td><a href="carrito.jsp" class="bg_login">Agregar al carro</a></td>
                         </tr>
                         <%}else if(opcion.equals("todo")){%>
                         <tr>
                             <td><img src="img/gatitos.png" alt="gatitos" width="90" height="150"/></td>
-                            <td>Cat Show Gatitos</td>
-                            <td>$17000</td>
+                            <td>Cat Show Gatitos<br>Peso: 8kg.<br>Serie: CS010</td>
+                            <td>$17.000</td>
+                            <td>30</td>
                             <td><a href="carrito.jsp" class="bg_login">Agregar al carro</a></td>
                         </tr>
                         <tr>
                             <td><img src="img/medium-junior.png" alt="medium-junior" width="90" height="150"/></td>
-                            <td>Royal Canin medium junior</td>
+                            <td>Royal Canin medium junior<br>Peso: 15kg.<br>Serie: RC020</td>
                             <td>$40.000</td>
+                            <td>45</td>
                             <td><a href="carrito.jsp" class="bg_login">Agregar al carro</a></td>
                         </tr>
                         <%}
