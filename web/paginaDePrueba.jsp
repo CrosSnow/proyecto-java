@@ -9,9 +9,51 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Tienda de prueba</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/_common.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%@include file="header.jsp" %>
+        <% String opcion = (String)request.getAttribute("opcion"); %>
+        <div class="container">
+            <form name="listadoFiltro" action="paginaDePrueba.jsp" method="POST">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Seleccione
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="paginaDePrueba.jsp?opcion=gato">Comida Gato</a></li>
+                        <li><a href="paginaDePrueba.jsp?opcion=perro">Comida Perro</a></li>
+                    </ul>
+                </div>
+            </form>
+            <div class="panel col-xs-6">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Nombre</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td><img src="img/gatitos.png" alt="gatitos" width="90" height="150"/></td>
+                            <td>Cat Show Gatitos</td>
+                            <td>$17000</td>
+                            <td><button type="submit" class="btn btn-dark">Agregar al Carro</button></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/medium-junior.png" alt="medium-junior" width="90" height="150"/></td>
+                            <td>Royal Canin medium junior</td>
+                            <td>$40.000</td>
+                            <td><button type="submit" class="btn btn-dark">Agregar al Carro</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
     </body>
 </html>
