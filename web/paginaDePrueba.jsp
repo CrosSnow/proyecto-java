@@ -15,7 +15,7 @@
     </head>
     <body>
         <%@include file="header.jsp" %>
-        <% String opcion = (String)request.getAttribute("opcion"); %>
+        <% String opcion = (String)request.getParameter("opcion"); %>
         <div class="container">
             <form name="listadoFiltro" action="paginaDePrueba.jsp" method="POST">
                 <div class="dropdown">
@@ -37,19 +37,24 @@
                         </tr>
                     </thead>
                     <tbody>
-                        
+                        <%  if(opcion!=null){
+                            if(opcion.equals("gato")) {%>
                         <tr>
                             <td><img src="img/gatitos.png" alt="gatitos" width="90" height="150"/></td>
                             <td>Cat Show Gatitos</td>
                             <td>$17000</td>
                             <td><button type="submit" class="btn btn-dark">Agregar al Carro</button></td>
                         </tr>
+                        <%}else if(opcion.equals("perro")){%>
                         <tr>
                             <td><img src="img/medium-junior.png" alt="medium-junior" width="90" height="150"/></td>
                             <td>Royal Canin medium junior</td>
                             <td>$40.000</td>
                             <td><button type="submit" class="btn btn-dark">Agregar al Carro</button></td>
                         </tr>
+                        <%
+                        }    
+                        }%>
                     </tbody>
                 </table>
 
