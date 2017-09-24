@@ -15,7 +15,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" style="background-color: #fefefe">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#"><strong>Mascoticomida<span style="color: red">.COM</span></strong></a>
